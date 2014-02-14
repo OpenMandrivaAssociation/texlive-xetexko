@@ -1,12 +1,12 @@
-# revision 31108
+# revision 32863
 # category Package
 # catalog-ctan /macros/xetex/generic/xetexko
-# catalog-date 2013-07-04 11:27:36 +0200
+# catalog-date 2014-02-03 08:31:04 +0100
 # catalog-license lppl1.3
-# catalog-version 2.1
+# catalog-version 2.4
 Name:		texlive-xetexko
-Version:	2.1
-Release:	5
+Version:	2.4
+Release:	1
 Summary:	Typeset Korean with Xe(La)TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/xetexko
