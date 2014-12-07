@@ -6,7 +6,7 @@
 # catalog-version 2.7
 Name:		texlive-xetexko
 Version:	2.7
-Release:	2
+Release:	3
 Summary:	Typeset Korean with Xe(La)TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/xetexko
