@@ -5,7 +5,7 @@
 # catalog-license lppl1.3
 # catalog-version 2.7
 Name:		texlive-xetexko
-Version:	2.17
+Version:	2.19
 Release:	1
 Summary:	Typeset Korean with Xe(La)TeX
 Group:		Publishing
