@@ -1,18 +1,12 @@
-# revision 34321
-# category Package
-# catalog-ctan /macros/xetex/generic/xetexko
-# catalog-date 2014-06-19 16:36:00 +0200
-# catalog-license lppl1.3
-# catalog-version 2.7
 Name:		texlive-xetexko
-Version:	2.21
+Version:	64894
 Release:	1
 Summary:	Typeset Korean with Xe(La)TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/xetexko
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xetexko.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xetexko.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xetexko.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xetexko.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -25,12 +19,12 @@ support, in XeTeX, providing features that provide quality
 typesetting.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -50,7 +44,7 @@ typesetting.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
