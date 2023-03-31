@@ -1,6 +1,6 @@
 Name:		texlive-xetexko
 Version:	64894
-Release:	1
+Release:	2
 Summary:	Typeset Korean with Xe(La)TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/xetexko
