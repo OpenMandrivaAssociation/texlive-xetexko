@@ -3,7 +3,7 @@ Version:	70315
 Release:	1
 Summary:	Typeset Korean with Xe(La)TeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/xetexko
+URL:		https://www.ctan.org/tex-archive/macros/xetex/generic/xetexko
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xetexko.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xetexko.doc.r%{version}.tar.xz
